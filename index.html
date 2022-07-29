@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Clicker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="counter"></div>
+            <div class="result"></div>
+        </header>  
+
+        <main>
+            <video loop autoplay muted class="myVideo">
+                <source src="/img/А я сейчас Вам покажу откуда на Беларусь планировалось нападение.  Превентивный удар. Лукашенко..mp4" type="video/mp4">
+            </video>
+
+            
+            <div class="text">
+                <p>Цель игры - подговить позиции для нападения. После прохождения каждого этапа - сложность увеличивается.</p> 
+                    
+                <p>
+                Для перехода на следующий левел необходимо успеть кликнуть по кнопке минимум 10 раз за отведенное время (чем больше, тем лучше).</p>
+            </div>
+            
+            <form id="form">
+                <fieldset>
+                    <div class="form_line">
+                        <label for="name"><span>*</span>Enter your Name:</label>
+                        <input id="name" class="name" name="name" type="text" required>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button class="form_button" type="submit">Start</button>
+                    </div>
+
+                </fieldset>
+            </form>
+      
+            <div class="display"></div>
+        </main>
+
+        <footer>
+            <div class="ShowTimer"></div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
