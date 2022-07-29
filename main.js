@@ -42,7 +42,7 @@ function startGame() {
 
 function clickBtn() { 
     const btn = document.createElement("button");
-    btn.innerHTML = `<img src="/img/111222.gif" class="img" alt="Click">`;
+    btn.innerHTML = `<img src="./img/111222.gif" class="img" alt="Click">`;
     btn.className = "btn"
     display.append(btn);
 }
